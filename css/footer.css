@@ -1,0 +1,27 @@
+.footer {
+}
+.container {
+}
+.footer__content {
+    padding-bottom: 110px;
+}
+.footer__social {
+}
+.social__about {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+.social__item:not(:last-child) {
+    margin-right: 65px;
+}
+.social__link {
+}
+.social__img {
+    max-width: 40px;
+    max-height: 40px;
+}
+.footer__text {
+    color: #828282;
+    text-align: center;
+}

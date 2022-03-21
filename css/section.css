@@ -1,0 +1,84 @@
+.main {
+}
+.section {
+}
+.container {
+}
+.section__content {
+    padding: 120px 0;
+}
+.section__title {
+    padding-bottom: 20px;
+    font-size: 34px;
+    text-align: center;
+}
+.section__text {
+    text-align: center;
+}
+.section__text:not(:last-child) {
+    padding-bottom: 40px;
+}
+.section__sub-title {
+    padding-top: 50px;
+    padding-bottom: 75px;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+}
+.section__wrapper {
+    
+}
+.section__about {
+    display: flex;
+    justify-content: space-between;
+}
+.section__item {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.item__img {
+    padding-bottom: 25px;
+    max-width: 90px;
+    max-height: 90px;
+}
+.item__name {
+    color: #828282;
+    font-size: 14px;
+    text-align: center;
+}
+.item__stars {
+    padding-top: 40px;
+}
+.portfolio__about {
+    
+}
+.portfolio__item {
+    text-align: center;
+}
+.portfolio__img {
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+.portfolio__link {   
+    text-align: center;
+    text-decoration: underline;
+}
+.section__button {
+    display: block;
+    margin: 0 auto;
+    padding: 9px 30px;
+    max-width: fit-content;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 50px;
+    transition: all .5s ease;
+}
+.section__button:hover {
+    color: #000;
+    background-color: #fff;
+}
