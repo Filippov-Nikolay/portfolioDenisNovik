@@ -1,2 +1,2 @@
-# portfolioDenisNovik
-GitPages - https://filippov-nikolay.github.io/portfolioDenisNovik/
+# portfolioDenisNovik - GitHubPages
+https://filippov-nikolay.github.io/portfolioDenisNovik/
