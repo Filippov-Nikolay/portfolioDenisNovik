@@ -57,6 +57,41 @@
 .burger-menu span:not(:last-child) {
     margin-bottom: 4px;
 }
+.burger__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 65px 25px;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 10;
+}
+.burger__menu .menu {
+    display: block;
+}
+.burger__menu .menu__list:not(:last-child) {
+    margin-bottom: 65px;
+}
+.burger__menu .menu__link {
+    font-size: 34px;
+}
+.menu__link--active {
+}
+.burger__menu .language {
+    position: absolute;
+    right: 25px;
+    bottom: 55px;
+    display: block;
+    font-size: 34px;
+}
+.close {
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    color: #828282;
+    font-size: 34px;
+}
 .header__content {
     padding-top: 90px;
 }
@@ -79,6 +114,7 @@
     text-transform: uppercase;
 }
 .language__item {
+    cursor: pointer;
     color: #828282;
 }
 .language__item:not(:first-child) {
