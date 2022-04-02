@@ -20,6 +20,10 @@
 .social__img {
     max-width: 40px;
     max-height: 40px;
+    transition: all .5s ease;
+}
+.social__img:hover {
+    transform: translate3d(0px, -10px, 0px);
 }
 .footer__text {
     color: #828282;

@@ -12,6 +12,8 @@
     font-size: 34px;
     text-align: center;
 }
+
+/* aboutme */
 .section__text {
     text-align: center;
 }
@@ -26,7 +28,6 @@
     text-align: center;
 }
 .section__wrapper {
-    
 }
 .section__about {
     display: flex;
@@ -38,33 +39,75 @@
     justify-content: space-between;
     align-items: center;
 }
+
+/* skills */
 .item__img {
     padding-bottom: 25px;
     max-width: 90px;
     max-height: 90px;
+    transition: all .5s ease;
+}
+.item__img:hover {
+    transform: translate3d(0px, -15px, 0px);
 }
 .item__name {
     color: #828282;
     font-size: 14px;
     text-align: center;
+    cursor: default;
 }
 .item__stars {
     padding-top: 40px;
 }
-.portfolio__about {
-    
+
+/* portfolio */
+.portfolio__about { 
 }
 .portfolio__item {
     text-align: center;
 }
 .portfolio__img {
+    position: relative;
+    background-color: #000;
+}
+.portfolio-img {
+    width: 100%;
+    transition: all .5s ease;
+}
+.portfolio__img:hover .portfolio-img {
+    opacity: 0.5;
+}
+.portfolio__name {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 10px 0;
+    width: 0;
+    opacity: 0;
+    background-color: #000;
+    transition: all .5s ease;
+}
+
+.portfolio__title {
+    margin: 0 auto;
+    width: max-content;
+    color: #fff;
+}
+
+.portfolio__img:hover .portfolio__name {
+    width: 100%;
+    opacity: 1;
+}
+.portfolio__item-link {
     padding-top: 100px;
     padding-bottom: 45px;
 }
-.portfolio__link {   
+.portfolio__link {
     text-align: center;
     text-decoration: underline;
 }
+
+/* contacts */
 .section__button {
     display: block;
     margin: 0 auto;

@@ -46,8 +46,12 @@
         display: none;
     }
 
-    .burger-menu span {
+    .burger-menu {
         display: block;
+    }
+
+    .burger__menu .menu__link {
+        display: inline-block;
     }
 
     .header__wrapper {
