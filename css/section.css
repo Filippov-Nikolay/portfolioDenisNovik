@@ -87,20 +87,20 @@
     background-color: #000;
     transition: all .5s ease;
 }
-
 .portfolio__title {
     margin: 0 auto;
     width: max-content;
     color: #fff;
 }
-
+.portfolio__item:not(:last-child) {
+    padding-bottom: 100px;
+}
+.portfolio__item-link {
+    padding-top: 45px;
+}
 .portfolio__img:hover .portfolio__name {
     width: 100%;
     opacity: 1;
-}
-.portfolio__item-link {
-    padding-top: 100px;
-    padding-bottom: 45px;
 }
 .portfolio__link {
     text-align: center;

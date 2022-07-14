@@ -19,3 +19,9 @@ img {
     display: block;
     max-width: 100%;
 }
+button {
+    display: block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
