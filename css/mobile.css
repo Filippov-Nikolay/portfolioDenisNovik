@@ -47,18 +47,21 @@
     }
 
     
-
-    .menu--active {
-        display: block;
-    }
     .menu--active .language {
         display: block;
     }
+    .menu--active {
+        display: block;
+    }
     .nav {
+        display: none;
         padding-top: 0;
     }
     .nav::after {
         display: none;
+    }
+    .nav--active {
+        display: block;
     }
 
     .nav-open {

@@ -1,21 +1,25 @@
 let body = document.body;
 let burgerMenu = document.querySelector('.nav-open');
+let nav = document.querySelector('.nav');
 let menu = document.querySelector('.menu');
 let lang = document.querySelector('.language');
 burgerMenu.addEventListener('click', function() {
-    let active = menu.classList.toggle('menu--active');
+    let active = nav.classList.toggle('nav--active');
     console.log(active);
     if(active) {
         lang.classList.add('language--active');
         burgerMenu.classList.add('nav-close');
+        menu.classList.add('menu--active');
     } else {
         lang.classList.remove('language--active');
         burgerMenu.classList.remove('nav-close');
+        menu.classList.remove('menu--active');
     }
 });
 window.addEventListener('resize', function() {
     if(window.innerWidth > 575) {
         menu.classList.remove('menu--active');
+        burgerMenu.classList.remove('nav-close');
     }
 });
 

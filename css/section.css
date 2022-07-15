@@ -91,6 +91,7 @@
     margin: 0 auto;
     width: max-content;
     color: #fff;
+    cursor: default;
 }
 .portfolio__item:not(:last-child) {
     padding-bottom: 100px;

@@ -13,6 +13,9 @@
     z-index: 1;
     background-color: #fff;
 }
+.nav--active {
+    display: block;
+}
 .nav::after {
     content: '';
     display: block;
